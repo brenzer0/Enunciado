@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&display=swap');
+.linha {
+    width: 1px;
+    height: 330px;
+    background-color: grey;
+    position: relative;
+    right: 50px;
+    top: 30px;
+
+}
+body {
+    background-color: azure;
+    font-family: 'Roboto Condensed', sans-serif;
+    align-items: stretch;
+}
+.esquerda { 
+    display:flex;
+    flex-direction: column;
+    width: 400px; 
+    letter-spacing: 2px;
+    position: relative;
+    top: -450px;
+    left: 30px;
+
+
+}
+.direita {
+    background: rgba(227, 240, 227, 0.644);
+    border-radius: 10px;
+    display: flex;
+    border: 1px solid black;
+    letter-spacing: 1px;
+    width: 900px;
+    max-width: 500px;
+    margin: 50px auto 0;
+    padding: 15px;
+}
+.icon {
+    width: 200px;
+}
+.list {
+    position: relative;
+    left: 200px;
+}
+.dia-lista {
+    position: relative;
+    right: 150px;
+    top: 35px;
+}
+.noite {
+    position: relative;
+    left: 80px;
+    top: 1px;
+}
+.dia{
+    position: relative;
+    right: 35px;
+}
+.nome {
+    font-size: 20px;
+}
